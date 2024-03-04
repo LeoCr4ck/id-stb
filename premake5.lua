@@ -8,7 +8,13 @@ project "stb"
 
 	files
 	{
+		"stb.cpp",
 		"stb_image.h"
+	}
+
+	includedirs
+	{
+		"%{wks.location}/Engine/src"
 	}
 	
 	filter "system:windows"
