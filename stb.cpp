@@ -1,3 +1,4 @@
+#define CORE_DEPENDENCY
 #include "enginepch.h"
 
 #define STB_IMAGE_IMPLEMENTATION
